@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'python Myjenkinstest/test.py'" 
+                sh 'python Myjenkinstest/test.py'
             }
         }
     }
